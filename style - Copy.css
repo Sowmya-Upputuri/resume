@@ -1,0 +1,131 @@
+.main{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-wrap:wrap;
+}
+.first{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-wrap:wrap;
+}
+.left{
+	flex: 1;
+	background-color: lightgreen;
+	border: 2px solid #000;
+	margin: 5px;
+}
+.right{
+	flex: 3;
+	background-color: pink;
+	border: 2px solid #000;
+	margin: 5px;
+}
+#b{
+	color: blue;
+	font-size: 20px;
+	font-style: italic;
+}
+img{
+	width: 300px;
+}table,td,tr{
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+	@media only screen and (min-width: 481px) and (min-width: 768px) {
+		.main{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	justify-content: center;
+}
+.first{
+	border: 2px solid #000;
+	margin: 2px;
+}
+img{
+	width:100px;
+	border-radius: 20px solid #000; 
+}
+.left{
+	flex: 1;
+	background-color: pink;
+	border: 2px solid #000;
+	margin: 5px;
+}
+
+.right{
+	flex: 3;
+	background-color: pink;
+	border: 2px solid #000;
+	margin: 5px;
+}
+}
+	}
+	@media only screen and (min-width:481px) and (max-width:768px){
+
+	.main{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+}
+.first{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+}
+.left{
+	flex: 1;
+	background-color: pink;
+	border: 2px solid #000;
+	margin: 5px;
+}
+
+.right{
+	flex: 3;
+	background-color: pink;
+	border: 2px solid #000;
+	margin: 5px;
+}
+}/* media queries(1024,1280,768,480)
+1280px-1025px :Desktop &loptops
+1024px-769px : Tablet or laptop
+768px-481px:Tablet or mobile
+480px: mobile or smaller device*/
+@media only screen and (min-width:320px) and (max-width:480px){
+
+	.main{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+}
+.first{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+}
+.left{
+	flex: 1;
+	background-color: pink;
+	border: 2px solid #000;
+	margin: 5px;
+}
+
+.right{
+	flex: 3;
+	background-color: pink;
+	border: 2px solid #000;
+	margin: 5px;
+}
+}
